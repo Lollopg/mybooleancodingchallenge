@@ -1,0 +1,86 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: url(background.jpg); 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.353);
+    width: 70%;
+    height: 70vh;
+    margin: auto;
+    margin-top: 15vh;
+    border-radius: 10px; 
+}
+
+header {
+    text-align: center;
+}
+
+.central {
+    width: 65%;
+    margin: auto;
+}
+
+.logo {
+    width: 20%;
+}
+
+h2 {
+    color: rgb(18, 223, 18);
+    margin: 0%;
+}
+
+nav {
+    text-align: center;
+    background-color: rgb(18, 223, 18);
+    padding: 10px;
+}
+
+main {
+    color: white;
+}
+
+ul {
+    list-style-type: square;
+    padding: 15px;
+}
+
+h3 {
+    margin: 0%;
+}
+
+li > div {
+    font-size: x-small;
+}
+
+.address:before {
+    content: "\21A6";    
+}
+
+.orangebar {
+    background-color: rgb(248, 189, 81);
+    width: 35%;
+       
+}   
+
+.greenbar {
+    background-color: rgb(7, 184, 7);
+    width: 60%;
+}   
+
+.redbar {
+    background-color: rgb(213, 70, 70);
+    width: 15%;
+}   
+
+.chargebar {
+    height: 1em;
+    border-radius: 3px;
+    font-size: large;
+    margin-bottom: 20px; 
+}
